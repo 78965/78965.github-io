@@ -1,5 +1,10 @@
 <html>
-  <head><title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title></head>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <style>
+      body {max-width:660px;margin:0 auto;}
+    </style>
+  </head>
   <body>
     <h1>{{ site.name }}</h1>
     <p>{{ site.description }}</p>
