@@ -15,3 +15,7 @@ a {
 img {
   max-width:100%;
 }
+
+header a {
+  color:#c0392b;
+}
